@@ -1,5 +1,7 @@
 # ASCII Creatures
 
+![Butterflies, koi, jellyfish and cranes drifting behind the search bar](media/demo.gif)
+
 Procedural creatures drawn as ASCII art on a single 2D canvas. There are no sprites, no
 frames and no dependencies. Each creature is described by maths and rasterised into a
 character grid every frame.
@@ -8,6 +10,25 @@ This is a readable reimplementation of pocketstudio.design's "ascii animals" dem
 Butterfly, koi, jellyfish, dragonfly, frog, crane and crab are ported from the original.
 Firefly is this project's own addition. The ported creature designs belong to the
 original author.
+
+## Creatures
+
+| | |
+|---|---|
+| ![Butterfly](media/butterfly.png) **Butterfly**: flaps, glides, scatters on click | ![Koi](media/koi.png) **Koi**: five varieties; click to drop food |
+| ![Jellyfish](media/jellyfish.png) **Jellyfish**: pulses and glows; click to make them pulse | ![Dragonfly](media/dragonfly.png) **Dragonfly**: hovers, darts, cruises |
+| ![Frog](media/frog.png) **Frog**: leaps in arcs and splashes on landing | ![Crane](media/crane.png) **Crane**: slow wingbeats with a red crown |
+| ![Crab](media/crab.png) **Crab**: scuttles sideways, bolts when startled | ![Firefly](media/firefly.png) **Firefly**: blinking lanterns |
+
+## Themes and tweaks
+
+Three themes (dark, black and light) cycle from the button in the top-right corner.
+The Tweaks panel picks the creature and exposes every movement and look setting, saved
+per creature.
+
+| Light | Black | Tweaks |
+|---|---|---|
+| ![Light theme](media/theme-light.png) | ![Black theme](media/theme-black.png) | ![Tweaks panel](media/tweaks.png) |
 
 ## Run
 
